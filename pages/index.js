@@ -1,6 +1,18 @@
 import Link from "next/link";
 import Image from "next/image";
 
+export async function getStaticProps(context) {
+  return {
+    props: {},
+  }
+}
+
+export async function getServerSideProps(context) {
+  return {
+    props: {},
+  }
+}
+
 function HomePage() {
   return (
     <div>
